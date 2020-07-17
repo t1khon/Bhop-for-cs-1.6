@@ -8,6 +8,6 @@ Bunny hop works by reading the game memory.
 * win32gui
 
 ## License
-Copyright (c) 2020 Mikhail Tishchenko
+Copyright (c) 2020 t1khon_
 
 Is licensed under [MIT License](LICENSE).
