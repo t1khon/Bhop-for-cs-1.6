@@ -7,7 +7,7 @@ import sys
 try:
     pm = pymem.Pymem("hl.exe")
 except:
-    error001()
+    sys.exit(0)
 else:
     hwDll = pymem.process.module_from_name(pm.process_handle, "hw.dll").lpBaseOfDll
     clientDll = pymem.process.module_from_name(pm.process_handle, "client.dll").lpBaseOfDll
